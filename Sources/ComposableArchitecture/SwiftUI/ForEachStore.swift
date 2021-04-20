@@ -45,7 +45,7 @@ import SwiftUI
 ///
 ///     let appReducer = todoReducer.forEach(
 ///       state: \.todos,
-///       action: /AppAction.todo(id:action:),
+///       action: AppAction.todo(id:action:),
 ///       environment: { _ in TodoEnvironment() }
 ///     )
 ///
